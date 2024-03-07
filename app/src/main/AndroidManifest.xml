@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PetPulse_v2"
+        tools:targetApi="31">
+        <activity
+            android:name=".petOwner.PetOwner_Appointment_Full_Details_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".vet.Vet_Attend_Appointments_Full_Details_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".vet.Vet_Appointments_Full_Details_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".vet.Vet_Attend_Appointments_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".vet.Vet_Pending_Appointments_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".petOwner.PetOwner_AppointmentConfirm_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".vet.Vet_All_Appointments_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".vet.Vet_Map_Location_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".vet.Vet_Profile_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".vet.Vet_OTP_Validation_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".vet.Doctor_Home_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".vet.Vet_Details_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".petOwner.Successfully_Paid_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".petOwner.Checkout_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".petOwner.Location_Map_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".petOwner.Appointment_Details_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".petOwner.OTP_Validation_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".petOwner.PetOwner_Home_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".petOwner.PetOwner_LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".vet.Vet_LogInActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LogInActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AnimatedSplash.MySplash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="${MAPS_API_KEY}" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

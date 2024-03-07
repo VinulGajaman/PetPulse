@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">PetPulse_v2</string>
+    <string name="todo">TODO</string>
+    <string name="welcome_to_petpluse">Welcome to PetPluse</string>
+    <string name="get_started">Get Started</string>
+    <string name="veterinarian">Veterinarian</string>
+    <string name="pet_owner">Pet Owner</string>
+    <string name="continue_as">Continue as...</string>
+    <string name="todo1">TODO</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="open_nav" />
+    <string name="close_nav" />
+
+    <string name="select">Select Animal</string>
+    <string name="not_available">Not Available</string>
+    <string name="available">Available</string>
+    <string name="map_id">deecf7570fc79d0</string>
+</resources>

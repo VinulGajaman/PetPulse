@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1054756971199",
+    "project_id": "petpulse-b0646",
+    "storage_bucket": "petpulse-b0646.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1054756971199:android:b50dc239c2725675239c0a",
+        "android_client_info": {
+          "package_name": "lk.javainstitute.petpulse_v2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBd0F8k7Gf_jVtGxd0Vgnx3PzUndfe5ol8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

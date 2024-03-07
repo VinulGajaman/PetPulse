@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/edittext_bkg">
+
+    <TextView
+        android:id="@+id/appNumPO1"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:fontFamily="@font/quicksand_medium"
+        android:gravity="left"
+        android:text="01"
+        android:textColor="#FF2A4E"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/vetApprName2"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="14dp"
+        android:fontFamily="@font/quicksand_medium"
+        android:gravity="center"
+        android:text="Vinul Gajaman"
+        android:textColor="#FF2A4E"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/appNumPO1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/vetApprMobile2"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="14dp"
+        android:fontFamily="@font/quicksand_medium"
+        android:gravity="center"
+        android:text="0710334443"
+        android:textColor="#FF2A4E"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.152"
+        app:layout_constraintStart_toEndOf="@+id/vetApprName2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/appDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/quicksand_medium"
+        android:text="2023-02-01"
+        android:textColor="#FF2A4E"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.151"
+        app:layout_constraintStart_toEndOf="@+id/petOwnerMobile4"
+        app:layout_constraintTop_toBottomOf="@+id/vetApprMobile2" />
+
+    <TextView
+        android:id="@+id/petOwnerMobile4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/quicksand_medium"
+        android:gravity="center"
+        android:text="DATE :"
+        android:textColor="#FF2A4E"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/appNumPO1"
+        app:layout_constraintTop_toBottomOf="@+id/vetApprName2" />
+
+    <TextView
+        android:id="@+id/petOwnerMobile5"
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/quicksand_medium"
+        android:gravity="center"
+        android:text="TIME :"
+        android:textColor="#FF2A4E"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/appNumPO1"
+        app:layout_constraintTop_toBottomOf="@+id/petOwnerMobile4"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/appTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/quicksand_medium"
+        android:text="11.01.23"
+        android:textColor="#FF2A4E"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.109"
+        app:layout_constraintStart_toEndOf="@+id/petOwnerMobile5"
+        app:layout_constraintTop_toBottomOf="@+id/appDate" />
+
+    <Button
+        android:id="@+id/btnView2"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/quicksand_bold"
+        android:text="View Appointment"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/appNumPO1"
+        app:layout_constraintTop_toBottomOf="@+id/appTime" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
